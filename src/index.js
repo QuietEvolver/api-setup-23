@@ -29,8 +29,8 @@ function printElements(apiResponse, city) {
   The temperature in Kelvins is ${apiResponse.main.temp} degrees.`;
 }
 // printerr from getWeather()
-function printError(request, city) {
-  document.querySelector('#showResponse').innerText = `There was an error accessing the weather data for ${city}:  ${request.status} ${request.statusText}`;
+function printError(request, apiResponse, city) {
+  document.querySelector('#showResponse').innerText = `There was an error accessing the weather data for ${city}: ${request.status} ${request.statusText}: ${apiResponse.message}`;
 }
 
 function handleFormSubmission(event) {
