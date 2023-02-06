@@ -2,11 +2,12 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
 
+
 // Business Logic
 
 function getWeather(city) {
   let request = new XMLHttpRequest();
-  const url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API-KEY}`;
+  const url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${process.env.API-KEY}`;
 
   request.addEventListener("loadend", function() {
     const response = JSON.parse(this.responseText);
