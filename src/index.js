@@ -14,7 +14,7 @@ function getWeather(city) {
     if (this.status === 200) {
       printElements(response, city);
     } else {
-      printError(this, city);
+      printError(this, response, city);
     }
   });
 
