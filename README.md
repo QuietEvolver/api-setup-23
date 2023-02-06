@@ -26,6 +26,7 @@ _This project was built using OpenWeather.org_
 - create a .env file in the root directory of our project
 - The variable that we're storing in the .env is the key: API_KEY
 - run npm install
+- in your terminal, run $npm install dotenv-webpack@2.0.0 --save-dev
 - npm run start to build and launch server
 
 
