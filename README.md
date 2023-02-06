@@ -1,8 +1,8 @@
-# _Secrets of Dune RPG_
+# _Open Weather API_
 
-#### By _Ashe Urban, Vera Weikel, Mesha, Erin Timlin, and Mitchell Gantz_
+#### By _Vera Weikel_
 
-#### _This project objective is to further explore and practice using TDD_
+#### _This project objective is to further explore and practice API's_
 
 ## Technologies Used
 
@@ -17,9 +17,7 @@
 
 ## Description
 
-_This project was built using the RPG practice prompt_
-
-_Lesson prompt:_ https://www.learnhowtoprogram.com/intermediate-javascript/test-driven-development-and-environments-with-javascript/haiku-creator-rpg-sudoku-solver-two-day-project-part-1
+_This project was built using OpenWeather.org_
 
 ## Setup/Installation Requirements
 
@@ -39,4 +37,4 @@ _Lesson prompt:_ https://www.learnhowtoprogram.com/intermediate-javascript/test-
 
 _MIT_
 
-Copyright (c) _2023_ _Ashe Urban_ _Vera Weikel_ _Mesha_ _Erin Timlin_ & _Mitchell Gantz_
+Copyright (c) _2023_ _Vera Weikel_
