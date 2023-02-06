@@ -23,9 +23,12 @@ _Lesson prompt:_ https://www.learnhowtoprogram.com/intermediate-javascript/test-
 
 ## Setup/Installation Requirements
 
-- _Clone or download to your local repository_
-- _run npm install_
-- _npm run start to build and launch server_
+- Clone or download to your local repository
+- add .env to our .gitignore file now.
+- create a .env file in the root directory of our project
+- The variable that we're storing in the .env is the key: API_KEY
+- run npm install
+- npm run start to build and launch server
 
 
 ## Known Bugs
