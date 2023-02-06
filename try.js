@@ -3,7 +3,7 @@ function checkNumber(number) {
   if (isNaN(number) || number < 0) {
     throw "Not a valid number!";
   } else {
-    document.querySelector('#displayNumber').innerText = "This number is valid. You may continue.";
+    return true;
   }
 }
 
@@ -15,7 +15,15 @@ window.addEventListener("load", function() {
     document.querySelector('#number').value = null;
 
     try {
-      checkNumber(inputtedNumber);
+      // checkNumber(inputtedNumber);
+      const isNumberValid = checkNumber(inputtedNumber);
+      if(isNumberValid instanceof Error){
+        console.error(isNumberValid.message);
+        throw RangeError("Not a valid Number");
+      } else {
+        console.log("Try = successful,  no catch needed:)");
+        document.querySelector('#displayNumber').innerText = "This number is valid. Pls Continue.";
+      }
     } catch(error) {
       console.error(`Red alert! We have an error: ${error.message}`);
     } 
