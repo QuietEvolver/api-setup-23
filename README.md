@@ -20,7 +20,10 @@
 _This project was built using OpenWeather.org_
 
 ## Setup/Installation Requirements
-
+- To get an API key for OpenWeather click [here](https://openweathermap.org/guide)
+- Sign up for an account, and sign in.
+- Once you are signed in, click on the API keys tab.
+- Locate the API key called Default. You'll use this key(YOUR_NEW_API_KEY) in every request you make to the OpenWeather API.
 - Clone or download to your local repository
 - add .env to our .gitignore file now.
 - create a .env file in the root directory of our project
